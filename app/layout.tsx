@@ -22,8 +22,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <main className="min-h-[calc(100vh-64px)] px-4 sm:px-6">{children}</main>
           <footer className="mx-auto mb-20 max-w-7xl border-t border-white/5 px-4 py-8 text-center text-xs text-zinc-700 sm:px-6 md:mb-0">
             <p>Built to memorize the pool, not to make psychology your personality.</p>
+
             <p className="mt-2">
               Made with <span aria-label="love" role="img">❤️</span> by{" "}
+
               <a
                 href="https://github.com/CallMeChandler"
                 target="_blank"
@@ -31,6 +33,17 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 className="font-bold text-zinc-500 transition hover:text-violet-300"
               >
                 CallMeChandler
+              </a>
+
+              {" & "}
+
+              <a
+                href="https://github.com/DeepDIv-sh"
+                target="_blank"
+                rel="noreferrer"
+                className="font-bold text-zinc-500 transition hover:text-violet-300"
+              >
+                DeepDIv-sh
               </a>
             </p>
           </footer>
