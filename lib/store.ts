@@ -58,7 +58,15 @@ export async function recordAttempt(payload: AttemptPayload, session: Session | 
     if (payload.score > currentBest) await redis.hset(key, { bestExam: payload.score });
   }
 
-  if (correctIds.length) await redis.sadd(`${key}:mastered`, ...correctIds);
+  if (correctIds.length) {
+    const [firstCorrectId, ...remainingCorrectIds] = correctIds;
+
+    await redis.sadd(
+      `${key}:mastered`,
+      firstCorrectId,
+      ...remainingCorrectIds
+    );
+  }
   const mastered = await redis.scard(`${key}:mastered`);
   const accuracy = Number(answers) > 0 ? Number(((Number(correct) / Number(answers)) * 100).toFixed(2)) : 0;
 
