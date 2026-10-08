@@ -54,8 +54,7 @@ export default function LocalDashboard({ questions }: { questions: Question[] })
       <div className="section-kicker">YOUR MEMORY MAP</div>
       <div className="mt-2 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h1 className="text-4xl font-black tracking-[-0.04em] text-white sm:text-5xl">Progress that lives on this device.</h1>
-          <p className="mt-3 text-sm leading-6 text-zinc-500">No login required for personal stats. Sign in only if you want your runs on the global leaderboard.</p>
+          <h1 className="text-4xl font-black tracking-[-0.04em] text-white sm:text-5xl">Progress that lives on this account.</h1>
         </div>
         <Link href="/weak" className="primary-button"><Zap className="h-4 w-4" />Attack {stats.weak} weak</Link>
       </div>
