@@ -195,12 +195,6 @@ export default function QuizArena({
         </div>
       </div>
 
-      {!current.official && (
-        <div className="mb-4 rounded-2xl border border-amber-400/15 bg-amber-400/[0.05] px-4 py-3 text-xs leading-5 text-amber-200/80">
-          Week 12 answers are provisional in the supplied PDF: they are submitted answers, not the released official key.
-        </div>
-      )}
-
       <div className="mb-5 h-1.5 overflow-hidden rounded-full bg-white/5">
         <motion.div className="h-full rounded-full bg-gradient-to-r from-violet-500 via-cyan-400 to-fuchsia-400" animate={{ width: `${Math.max(progress, ((index + 1) / questions.length) * 100)}%` }} transition={{ type: "spring", stiffness: 140, damping: 25 }} />
       </div>

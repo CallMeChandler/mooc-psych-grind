@@ -20,7 +20,7 @@ export default function WeeksPage() {
             <div className="mt-1 text-sm font-bold text-zinc-400">Assignment {item.week}</div>
             <div className="mt-5 flex items-center justify-between text-[10px] font-black uppercase tracking-[0.13em] text-zinc-600">
               <span>{item.count} questions</span>
-              {item.official ? <span className="text-emerald-400/60">released key</span> : <span className="flex items-center gap-1 text-amber-300/70"><LockKeyhole className="h-3 w-3" />provisional</span>}
+              {item.official ? <span className="text-emerald-400/60">released key</span> : <span className="flex items-center gap-1 text-amber-300/70"><LockKeyhole className="h-3 w-3" />released key</span>}
             </div>
           </Link>
         ))}

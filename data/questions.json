@@ -2921,8 +2921,8 @@
         "text": "none of the given"
       }
     ],
-    "answer": "A",
-    "official": false
+    "answer": "C",
+    "official": true
   },
   {
     "id": "w12q2",
@@ -2949,7 +2949,7 @@
       }
     ],
     "answer": "D",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q3",
@@ -2976,7 +2976,7 @@
       }
     ],
     "answer": "D",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q4",
@@ -3003,7 +3003,7 @@
       }
     ],
     "answer": "B",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q5",
@@ -3030,7 +3030,7 @@
       }
     ],
     "answer": "C",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q6",
@@ -3057,7 +3057,7 @@
       }
     ],
     "answer": "D",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q7",
@@ -3084,7 +3084,7 @@
       }
     ],
     "answer": "D",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q8",
@@ -3103,7 +3103,7 @@
       }
     ],
     "answer": "A",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q9",
@@ -3130,7 +3130,7 @@
       }
     ],
     "answer": "A",
-    "official": false
+    "official": true
   },
   {
     "id": "w12q10",
@@ -3157,6 +3157,6 @@
       }
     ],
     "answer": "B",
-    "official": false
+    "official": true
   }
 ]
